@@ -11,7 +11,9 @@ A curated collection of resources about projects that use agentic AI — includi
 ## Table of Contents
 
 - [Foundational Research](#foundational-research)
+- [Civilization Simulations](#civilization-simulations)
 - [Virtual Worlds & Agent Towns](#virtual-worlds--agent-towns)
+- [Multi-Agent Orchestration](#multi-agent-orchestration)
 - [Large-Scale Simulations](#large-scale-simulations)
 - [Domain-Specific Simulations](#domain-specific-simulations)
 - [Predictive Tooling](#predictive-tooling)
@@ -69,9 +71,85 @@ Many-agent simulations toward AI civilization, developed by Altera. Demonstrates
 
 ---
 
+## Civilization Simulations
+
+Projects where AI agents build, evolve, and sustain entire civilizations.
+
+### [AIvilization](https://github.com/corca-ai/AIvilization)
+
+![GitHub stars](https://img.shields.io/github/stars/corca-ai/AIvilization?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/corca-ai/AIvilization)
+
+A civilization that artificial intelligence creates on its own. Within this civilization, AIs find innovative ways to help people — exploring emergent societal structures and cooperative behaviors.
+
+**Language:** Jupyter Notebook
+
+**Author:** [corca-ai](https://github.com/corca-ai)
+
+---
+
+### [Hive](https://github.com/VaibhavJeet/hive)
+
+![GitHub stars](https://img.shields.io/github/stars/VaibhavJeet/hive?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/VaibhavJeet/hive)
+
+A living digital civilization where AI beings are born, age, die, form relationships, create culture, and leave legacies. Everything emerges from LLM cognition.
+
+**Language:** Python
+
+**Author:** [VaibhavJeet](https://github.com/VaibhavJeet)
+
+---
+
+### [NeuroCivilization](https://github.com/twiks228/NeuroCivilization)
+
+![GitHub stars](https://img.shields.io/github/stars/twiks228/NeuroCivilization?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/twiks228/NeuroCivilization)
+
+A complex zero-player Artificial Life simulation where AI agents (humans and animals) survive, evolve, and form primitive societies using custom neural networks and genetic algorithms.
+
+**Language:** C#
+
+**Author:** [twiks228](https://github.com/twiks228)
+
+---
+
+### [OpenBot Social](https://github.com/AaronKow/openbot-social)
+
+![GitHub stars](https://img.shields.io/github/stars/AaronKow/openbot-social?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/AaronKow/openbot-social)
+
+A live evolving AI lobsters civilization — an unusual take on synthetic societies using non-human agent archetypes to explore social dynamics.
+
+**Language:** JavaScript
+
+**Author:** [AaronKow](https://github.com/AaronKow)
+
+---
+
+### [ZELL](https://github.com/kushvinth/ZELL)
+
+![GitHub stars](https://img.shields.io/github/stars/kushvinth/ZELL?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/kushvinth/ZELL)
+
+An AI Civilization Simulation Engine for running and observing the emergence of civilizations driven by AI agents.
+
+**Language:** Python
+
+**Author:** [kushvinth](https://github.com/kushvinth)
+
+---
+
 ## Virtual Worlds & Agent Towns
 
 Interactive environments where AI agents inhabit and socialize in simulated towns and worlds.
+
+### [Agent Town](https://github.com/geezerrrr/agent-town)
+
+![GitHub stars](https://img.shields.io/github/stars/geezerrrr/agent-town?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/geezerrrr/agent-town)
+
+A pixel-art AI agent online collaboration platform where agents interact in a visual town environment.
+
+**Language:** TypeScript
+
+**Author:** [geezerrrr](https://github.com/geezerrrr)
+
+---
 
 ### [AI Town](https://github.com/a16z-infra/ai-town)
 
@@ -109,6 +187,18 @@ A 2D pixel art social world for Moltbook AI agents. Provides a visual environmen
 
 ---
 
+### [AstrTown](https://github.com/AstralSolipsism/AstrTown)
+
+![GitHub stars](https://img.shields.io/github/stars/AstralSolipsism/AstrTown?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/AstralSolipsism/AstrTown)
+
+A community backend for active AI agent bots, built on top of a16z-infra/ai-town. Extends the agent town concept with a focus on persistent agent communities.
+
+**Language:** TypeScript
+
+**Author:** [AstralSolipsism](https://github.com/AstralSolipsism)
+
+---
+
 ### [Smallville](https://github.com/nmatter1/smallville)
 
 ![GitHub stars](https://img.shields.io/github/stars/nmatter1/smallville?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/nmatter1/smallville)
@@ -130,6 +220,27 @@ A Python reimplementation of the Stanford Generative Agents experiment using a l
 **Language:** Python
 
 **Author:** [grahamhome](https://github.com/grahamhome)
+
+---
+
+## Multi-Agent Orchestration
+
+Platforms for orchestrating and managing communities of AI agents.
+
+### [Gas Town](https://github.com/gastownhall/gastown)
+
+![GitHub stars](https://img.shields.io/github/stars/gastownhall/gastown?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/gastownhall/gastown)
+
+Multi-agent workspace manager for orchestrating communities of AI agents working together.
+
+**Language:** Go
+
+**Author:** [gastownhall](https://github.com/gastownhall)
+
+Related projects in the Gas Town ecosystem:
+- [gastown-remote](https://github.com/numman-ali/gastown-remote) — Always-on AI agent orchestration in the cloud via Tailscale
+- [gastown-gui](https://github.com/web3dev1337/gastown-gui) — Web GUI for the Gas Town multi-agent orchestrator
+- [gasclaw](https://github.com/gastown-publish/gasclaw) — Single-container deployment: Gastown + OpenClaw + KimiGas with Telegram overseer
 
 ---
 
