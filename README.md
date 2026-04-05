@@ -13,10 +13,13 @@ A curated collection of resources about projects that use agentic AI — includi
 - [Foundational Research](#foundational-research)
 - [Civilization Simulations](#civilization-simulations)
 - [Virtual Worlds & Agent Towns](#virtual-worlds--agent-towns)
+- [Social Interaction & Emergent Behavior](#social-interaction--emergent-behavior)
+- [Sociological & Political Modeling](#sociological--political-modeling)
 - [Multi-Agent Orchestration](#multi-agent-orchestration)
 - [Large-Scale Simulations](#large-scale-simulations)
 - [Domain-Specific Simulations](#domain-specific-simulations)
 - [Predictive Tooling](#predictive-tooling)
+- [Simulation Infrastructure](#simulation-infrastructure)
 - [Related Repos](#related-repos)
 - [Contributing](#contributing)
 - [Disclaimer](#disclaimer)
@@ -223,6 +226,98 @@ A Python reimplementation of the Stanford Generative Agents experiment using a l
 
 ---
 
+## Social Interaction & Emergent Behavior
+
+Projects exploring how AI agents develop social strategies, relationships, and group dynamics.
+
+### [ChatArena](https://github.com/Farama-Foundation/chatarena)
+
+![GitHub stars](https://img.shields.io/github/stars/Farama-Foundation/chatarena?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/Farama-Foundation/chatarena)
+
+Multi-agent language game environments for LLMs. Agents engage in structured social games including negotiation, debate, and deception — studying communication and collaboration dynamics.
+
+**Language:** Python
+
+**Author:** [Farama-Foundation](https://github.com/Farama-Foundation)
+
+---
+
+### [GPTeam](https://github.com/101dotxyz/GPTeam)
+
+![GitHub stars](https://img.shields.io/github/stars/101dotxyz/GPTeam?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/101dotxyz/GPTeam)
+
+An open-source multi-agent simulation where agents with distinct personalities live in a shared world, forming opinions, interacting, and exhibiting emergent group dynamics.
+
+**Language:** Python
+
+**Author:** [101dotxyz](https://github.com/101dotxyz)
+
+---
+
+### [HumanoidAgents](https://github.com/HumanoidAgents/HumanoidAgents)
+
+![GitHub stars](https://img.shields.io/github/stars/HumanoidAgents/HumanoidAgents?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/HumanoidAgents/HumanoidAgents)
+
+Platform for simulating human-like generative agents with daily routines, needs, and social interactions. Focuses on realistic human behavior simulation and social dynamics.
+
+**Language:** Python
+
+**Author:** [HumanoidAgents](https://github.com/HumanoidAgents)
+
+---
+
+### [Sotopia](https://github.com/sotopia-lab/sotopia)
+
+![GitHub stars](https://img.shields.io/github/stars/sotopia-lab/sotopia?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/sotopia-lab/sotopia)
+
+An open-ended social learning environment (ICLR 2024 spotlight). Agents interact in open-ended social scenarios, measuring social intelligence and emergent social strategies.
+
+**Language:** Python
+
+**Author:** [sotopia-lab](https://github.com/sotopia-lab)
+
+---
+
+## Sociological & Political Modeling
+
+Projects that use agent simulations to model real-world sociological and political phenomena.
+
+### [Generative Agent Simulations of 1,000 People](https://github.com/StanfordHCI/genagents)
+
+![GitHub stars](https://img.shields.io/github/stars/StanfordHCI/genagents?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/StanfordHCI/genagents)
+
+LLM agents modeled on real interview data from 1,000 actual people, replicating individual attitudes and collective social behavior at population scale.
+
+**Language:** Python
+
+**Author:** [StanfordHCI](https://github.com/StanfordHCI)
+
+---
+
+### [SocioDojo](https://github.com/chengjunyan1/SocioDojo)
+
+![GitHub stars](https://img.shields.io/github/stars/chengjunyan1/SocioDojo?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/chengjunyan1/SocioDojo)
+
+A lifelong learning environment for real-society dynamics. Agents learn to reason about societal phenomena through hypothesis generation and proof about social dynamics.
+
+**Language:** Python
+
+**Author:** [chengjunyan1](https://github.com/chengjunyan1)
+
+---
+
+### [WarAgent](https://github.com/agiresearch/WarAgent)
+
+![GitHub stars](https://img.shields.io/github/stars/agiresearch/WarAgent?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/agiresearch/WarAgent)
+
+LLM-based multi-agent simulation of world wars. Simulates international conflict and diplomacy between nation-state agents, modeling escalation dynamics and geopolitical decision-making.
+
+**Language:** Python
+
+**Author:** [agiresearch](https://github.com/agiresearch)
+
+---
+
 ## Multi-Agent Orchestration
 
 Platforms for orchestrating and managing communities of AI agents.
@@ -247,6 +342,18 @@ Related projects in the Gas Town ecosystem:
 ## Large-Scale Simulations
 
 Projects focused on simulating societies at scale for sociological and behavioral research.
+
+### [AgentTorch](https://github.com/AgentTorch/AgentTorch)
+
+![GitHub stars](https://img.shields.io/github/stars/AgentTorch/AgentTorch?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/AgentTorch/AgentTorch)
+
+Differentiable agent-based modeling at scale — supports millions of agents. Used for pandemic simulation, economic modeling, and population-level social dynamics with LLM-powered agent behaviors.
+
+**Language:** Jupyter Notebook
+
+**Author:** [AgentTorch](https://github.com/AgentTorch)
+
+---
 
 ### [AgentSociety](https://github.com/tsinghua-fib-lab/agentsociety)
 
@@ -276,6 +383,18 @@ Social interaction simulation platform from the CAMEL-AI team that scales up to 
 
 Agent society simulations applied to specific real-world domains.
 
+### [Agent Hospital](https://github.com/wisdom-pan/Agent_Hospital)
+
+![GitHub stars](https://img.shields.io/github/stars/wisdom-pan/Agent_Hospital?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/wisdom-pan/Agent_Hospital)
+
+Multi-agent medical simulation where AI doctor agents conduct multi-round dialogues with patient agents, propose diagnostic questions, recommend medical exams, and make diagnoses. Includes inspector agents and attending physicians who evaluate performance.
+
+**Language:** Python
+
+**Author:** [wisdom-pan](https://github.com/wisdom-pan)
+
+---
+
 ### [AI Hospital](https://github.com/LibertFan/AI_Hospital)
 
 ![GitHub stars](https://img.shields.io/github/stars/LibertFan/AI_Hospital?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/LibertFan/AI_Hospital)
@@ -301,6 +420,22 @@ A swarm intelligence prediction engine that constructs parallel digital worlds f
 **Language:** Python
 
 **Author:** [666ghj](https://github.com/666ghj)
+
+---
+
+## Simulation Infrastructure
+
+Tools and platforms for constructing synthetic society experiments.
+
+### [Unreal Engine MCP](https://github.com/flopperam/unreal-engine-mcp)
+
+![GitHub stars](https://img.shields.io/github/stars/flopperam/unreal-engine-mcp?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/flopperam/unreal-engine-mcp)
+
+Control Unreal Engine 5.5+ through AI with natural language. Enables building 3D environments — towns, structures, and worlds — using AI-powered commands, providing infrastructure for visually rich agent society simulations.
+
+**Language:** C++
+
+**Author:** [flopperam](https://github.com/flopperam)
 
 ---
 
