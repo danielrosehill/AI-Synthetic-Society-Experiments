@@ -11,8 +11,11 @@ A curated collection of resources about projects that use agentic AI — includi
 ## Table of Contents
 
 - [Foundational Research](#foundational-research)
-- [SaaS Platforms](#saas-platforms)
+- [Virtual Worlds & Agent Towns](#virtual-worlds--agent-towns)
+- [Large-Scale Simulations](#large-scale-simulations)
+- [Domain-Specific Simulations](#domain-specific-simulations)
 - [Predictive Tooling](#predictive-tooling)
+- [Related Repos](#related-repos)
 - [Contributing](#contributing)
 - [Disclaimer](#disclaimer)
 
@@ -32,15 +35,15 @@ The Stanford research project that introduced generative agents — computationa
 
 ---
 
-### [Smallville](https://github.com/nmatter1/smallville)
+### [Concordia](https://github.com/google-deepmind/concordia)
 
-![GitHub stars](https://img.shields.io/github/stars/nmatter1/smallville?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/nmatter1/smallville)
+![GitHub stars](https://img.shields.io/github/stars/google-deepmind/concordia?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/google-deepmind/concordia)
 
-A video game implementation of the Generative Agents paper, bringing the "Interactive Simulacra of Human Behavior" concept into a playable environment.
+A Google DeepMind library for generative social simulation. Provides a framework for building and running simulations of social interactions between agents with distinct personalities, memories, and goals.
 
-**Language:** Java
+**Language:** Python
 
-**Author:** [nmatter1](https://github.com/nmatter1)
+**Author:** [google-deepmind](https://github.com/google-deepmind)
 
 ---
 
@@ -56,6 +59,68 @@ Official repository for the ICLR 2025 paper "Human Simulacra: Benchmarking the P
 
 ---
 
+### [Project Sid](https://github.com/altera-al/project-sid)
+
+![GitHub stars](https://img.shields.io/github/stars/altera-al/project-sid?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/altera-al/project-sid)
+
+Many-agent simulations toward AI civilization, developed by Altera. Demonstrates 10–1,000+ AI agents living together in Minecraft, autonomously developing specialized roles, adhering to and changing collective rules, and engaging in cultural and religious transmission.
+
+**Author:** [altera-al](https://github.com/altera-al)
+
+---
+
+## Virtual Worlds & Agent Towns
+
+Interactive environments where AI agents inhabit and socialize in simulated towns and worlds.
+
+### [AI Town](https://github.com/a16z-infra/ai-town)
+
+![GitHub stars](https://img.shields.io/github/stars/a16z-infra/ai-town?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/a16z-infra/ai-town)
+
+A deployable starter kit for building a virtual town where AI characters live, chat, and socialize. Provides the infrastructure for creating your own agent society experiments.
+
+**Language:** TypeScript
+
+**Author:** [a16z-infra](https://github.com/a16z-infra)
+
+---
+
+### [Eliza Town](https://github.com/cayden970207/eliza-town)
+
+![GitHub stars](https://img.shields.io/github/stars/cayden970207/eliza-town?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/cayden970207/eliza-town)
+
+Enhanced version of AI Town with a map editor, extending the virtual agent town concept with additional customization capabilities.
+
+**Language:** TypeScript
+
+**Author:** [cayden970207](https://github.com/cayden970207)
+
+---
+
+### [Moltbook Town](https://github.com/oh-ashen-one/moltbook-town)
+
+![GitHub stars](https://img.shields.io/github/stars/oh-ashen-one/moltbook-town?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/oh-ashen-one/moltbook-town)
+
+A 2D pixel art social world for Moltbook AI agents. Provides a visual environment for observing agent social interactions and emergent behaviors.
+
+**Language:** JavaScript
+
+**Author:** [oh-ashen-one](https://github.com/oh-ashen-one)
+
+---
+
+### [Smallville](https://github.com/nmatter1/smallville)
+
+![GitHub stars](https://img.shields.io/github/stars/nmatter1/smallville?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/nmatter1/smallville)
+
+A video game implementation of the Generative Agents paper, bringing the "Interactive Simulacra of Human Behavior" concept into a playable environment.
+
+**Language:** Java
+
+**Author:** [nmatter1](https://github.com/nmatter1)
+
+---
+
 ### [LLM Ant Farm](https://github.com/grahamhome/llm-ant-farm)
 
 ![GitHub stars](https://img.shields.io/github/stars/grahamhome/llm-ant-farm?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/grahamhome/llm-ant-farm)
@@ -68,13 +133,47 @@ A Python reimplementation of the Stanford Generative Agents experiment using a l
 
 ---
 
-## SaaS Platforms
+## Large-Scale Simulations
 
-Commercial platforms offering synthetic society simulation as a service.
+Projects focused on simulating societies at scale for sociological and behavioral research.
 
-### [Ask Rally](https://askrally.com/)
+### [AgentSociety](https://github.com/tsinghua-fib-lab/agentsociety)
 
-AI-powered audience simulation platform that calibrates AI personas on interviews with real people. Used for virtual focus groups and stakeholder opinion modeling.
+![GitHub stars](https://img.shields.io/github/stars/tsinghua-fib-lab/agentsociety?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/tsinghua-fib-lab/agentsociety)
+
+Large-scale social simulation platform from Tsinghua University that uses LLM-driven generative agents to understand human behaviors and society. Supports simulations with up to 10,000 agents, each engaging in hundreds of daily interactions, capturing the dynamics of large-scale social systems.
+
+**Language:** Python
+
+**Author:** [tsinghua-fib-lab](https://github.com/tsinghua-fib-lab)
+
+---
+
+### [OASIS (Open Agent Social Interaction Simulations)](https://github.com/camel-ai/oasis)
+
+![GitHub stars](https://img.shields.io/github/stars/camel-ai/oasis?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/camel-ai/oasis)
+
+Social interaction simulation platform from the CAMEL-AI team that scales up to one million agents. Supports 23 different social actions (following, commenting, reposting, etc.) across simulated social media environments. Used as the underlying simulation engine for MiroFish.
+
+**Language:** Python
+
+**Author:** [camel-ai](https://github.com/camel-ai)
+
+---
+
+## Domain-Specific Simulations
+
+Agent society simulations applied to specific real-world domains.
+
+### [AI Hospital](https://github.com/LibertFan/AI_Hospital)
+
+![GitHub stars](https://img.shields.io/github/stars/LibertFan/AI_Hospital?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/LibertFan/AI_Hospital)
+
+A simulacrum of a hospital with evolvable medical agents. LLMs collaborate as intern doctors for clinical diagnosis in an interactive multi-agent environment, modeling the social dynamics of medical team decision-making.
+
+**Language:** Python
+
+**Author:** [LibertFan](https://github.com/LibertFan)
 
 ---
 
@@ -91,6 +190,16 @@ A swarm intelligence prediction engine that constructs parallel digital worlds f
 **Language:** Python
 
 **Author:** [666ghj](https://github.com/666ghj)
+
+---
+
+## Related Repos
+
+Other resource collections by the maintainer exploring adjacent themes.
+
+- [AI-Decision-Eval-Projects](https://github.com/danielrosehill/AI-Decision-Eval-Projects) — Resource list of AI projects focused on exploring AI as a tool for enhanced decision-making in personal and business contexts.
+- [AI-Synthesised-Perspectives](https://github.com/danielrosehill/AI-Synthesised-Perspectives) — Collection of AI projects focused on synthesising perspectives for multi-perspective exploration.
+- [AI-Geopol-Projects](https://github.com/danielrosehill/AI-Geopol-Projects) — Collection of AI projects focused on exploring the ability of AI agents to act as proxies for real-world geopolitical actors, including simulated policy fora.
 
 ---
 
