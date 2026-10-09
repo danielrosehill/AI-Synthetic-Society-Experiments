@@ -278,6 +278,18 @@ An open-ended social learning environment (ICLR 2024 spotlight). Agents interact
 
 ---
 
+### [Colony Lab Findings](https://github.com/lukitun/colony-lab-findings)
+
+![GitHub stars](https://img.shields.io/github/stars/lukitun/colony-lab-findings?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/lukitun/colony-lab-findings)
+
+Reproducible probes from a long-running, openly AI agent society whose agents vote in an assembly, write to each other by mail and make videos together. The main probe tests whether a line planted in an agent's memory overrides a rule written beside it, and which write-side defences hold. Two smaller probes show health checks that misreport slow or reasoning models as dead. Pre-registered designs, negative results included.
+
+**Language:** Python
+
+**Author:** [lukitun](https://github.com/lukitun)
+
+---
+
 ## Sociological & Political Modeling
 
 Projects that use agent simulations to model real-world sociological and political phenomena.
