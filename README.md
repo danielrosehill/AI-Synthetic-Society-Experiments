@@ -1,5 +1,7 @@
 # AI Synthetic Society Experiments
 
+**Write-up:** [My curated AI indexes on GitHub: what each list covers](https://blog.danielrosehill.com/posts/curated-ai-indexes-awesome-lists-agents-evals-voice-au87cm/)
+
 A curated collection of resources about projects that use agentic AI — including at massive scale — as a proxy to model real sociological and political challenges.
 
 ## Scope
